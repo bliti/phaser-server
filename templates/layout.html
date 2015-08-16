@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Awesome Phaser Video Game</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+	<script href="{{ url_for('static', filename='js/phaser.min.js') }}"></script>
+		<script href="{{ url_for('static', filename='js/game.js') }}"></script>
+</head>
+<body>
+{% block content %}{% endblock %}
+</body>
+</html>
